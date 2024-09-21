@@ -14,8 +14,11 @@
         <div id="img-box">
             <img src="" id = "qrImage">
         </div>
-
-        <button onclick="generateQR()">Generte QR Code</button>
+        <div class="buttons">
+            <button id="qrgenerator" onclick="generateQR()">Generte QR Code</button>
+            <a id="downloadBtn" onclick="downloadQRFunc()"><img src="download.png"></button>
+        </div>
+        
     </div>
 
     <script src="qrgenerator.js"></script>

@@ -36,7 +36,12 @@ body{
     border-radius: 5px;
 }
 
-.container button{
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#qrgenerator{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +56,26 @@ body{
     cursor: pointer;
     font-weight: 500px;
     box-shadow: 0 10px 10px rgb(0,0,0,0.1);
+}
+
+#downloadBtn{
+    visibility: hidden;
+    width: 30%;
+    color: none;
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    cursor: pointer;
+    padding-left: 10%;
+}
+#downloadBtn img{
+    width: 40px;
+    transition: 0.2s;
+}
+#downloadBtn img:hover{
+    transform: scale(130%, 130%);
+    transition: 0.2s;
 }
 
 #img-box{
