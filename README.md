@@ -45,12 +45,6 @@ No installation required! Simply open the `index.html` file in your browser, and
 - **CSS** for styling and layout.
 - **JavaScript** for dynamic QR code generation using the [QR Code Generator API](https://goqr.me/api/).
 
-## 🖼️ Demo
-
-![QR Code Generator](https://via.placeholder.com/150)
-
-Try it yourself by entering any text or URL and clicking "Generate QR Code."
-
 ## 🎨 Styling
 
 The design uses a modern and minimal approach with soft shadows and a responsive layout for different screen sizes.
@@ -61,4 +55,4 @@ Feel free to open an issue or submit a pull request!
 
 ---
 
-Made with 💻 and ☕ by [Your Name].
+Made with 💻 and ☕.
